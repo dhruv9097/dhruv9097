@@ -126,14 +126,14 @@ ration, proof of employment, a verifiable work history.
 **A 7-phase multi-agent growth engine.**
 
 Seven specialised Python agents run as one orchestrated pipeline: Spy (7-day competitor
-scrape) → Auditor (gap analysis) → Image Analyst (Gemini Vision) → Trend Hijack (world-trend
+scrape via Apify) → Auditor (gap analysis) → Image Analyst (Gemini Vision) → Trend Hijack (world-trend
 scoring) → Architect (thread drafts) → Engagement (Golden Hour replies) → Image Generator.
 
 - 🔁 **Dual-mode pipeline** — `--live` and a safe `mock` mode for free iteration
 - 📊 **Quota-managed** LLM calls with persisted state and structured JSON reports
 - 🖼️ Vision-model reading of competitor image posts
 
-`Python` `Gemini Vision API` `Pollinations.ai` `BeautifulSoup` `Pandas` `Next.js UI`
+`Python` `Gemini Vision API` `Apify` `Pollinations.ai` `requests`
 
 </td>
 </tr>
